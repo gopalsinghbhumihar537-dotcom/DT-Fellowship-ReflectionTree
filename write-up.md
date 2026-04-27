@@ -1,15 +1,15 @@
 # Write-Up: Design Rationale for the Daily Reflection Tree
 
-*Gopal Kumar · DT Fellowship Assignment*
+Write-Up: Design Rationale for the Daily Reflection Tree  
+Gopal Kumar · DT Fellowship Assignment  
 
----
+This system is fully deterministic — no LLM is used at runtime.  
+All branching logic is predefined in the tree structure.
 
 ## Why These Specific Questions
 
-This system is fully deterministic — no LLM is used at runtime. 
-All branching logic is predefined in the tree structure.
-
 ## 1. Design Approach
+...
 
 The hardest constraint in this assignment is the no-free-text rule. Every question must present options that **genuinely capture the spectrum** — if all four choices are clearly "good," the employee picks the aspirational one and learns nothing. If one is obviously "bad," nobody picks it and the tree collapses into a checkbox exercise.
 
