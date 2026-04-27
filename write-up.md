@@ -5,7 +5,7 @@
 ---
 
 ## Why These Specific Questions
-# 🧠 Reflection Tree Design – Write-up
+
 
 This system is fully deterministic — no LLM is used at runtime. 
 All branching logic is predefined in the tree structure.
